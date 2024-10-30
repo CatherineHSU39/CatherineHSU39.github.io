@@ -5,4 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("about").addEventListener("click", () => {
         alert("About section clicked!");
     });
+    document.getElementById("dontclick").addEventListener("click", () => {
+        alert("Boom");
+    });
 });
